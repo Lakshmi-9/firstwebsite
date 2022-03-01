@@ -1,0 +1,99 @@
+body {
+    font-family:'roboto', sans-serif;
+    margin: 0;
+}
+.banner-section {
+    height: 300px;
+    overflow: hidden;
+}
+.banner-image {
+    width: 100%;
+
+}
+.profile-section {
+    display:flex;
+    justify-content:left;
+    margin-left: 150px;
+    gap:125px;
+
+}
+.profile-image {
+    width:200px;
+    border-radius: 100px;
+    margin:-100px;
+}
+.menu-bar-section {
+    margin-top:30px;
+    margin-bottom:10px;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    
+}
+.menu-section {
+    display:flex;
+    list-style:none;
+    gap: 30px;    
+}
+.menu-section li {
+    font-weight: bold;
+}
+.middle-section {
+    display:flex;
+}
+.tab-section {
+    margin-top: 20px;
+    
+    
+}
+.tab-links-section a {
+    text-decoration: none;
+    list-style: none;
+    color: #718355
+    
+}
+.tab-links-section li {
+    padding : 20px;
+    border: 1px solid #b5c99a;
+}
+.tab-links-section {
+    list-style: none;
+    margin-right: 20px;
+    
+}
+.tab-links-section li.selected {
+    background-color: #f5cac3;
+    
+}
+.tab-links-section li.selected a {
+    color: #001219;
+}
+.data-section {
+    
+    margin-top:20px;
+}
+.data-section dd,dt {
+    padding:20px;
+}
+.data-section dd {
+    border-bottom: 1px solid rgb(245, 165, 165);     
+}
+.data-section-list {
+    display:flex;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+.data-section dt {
+    font-weight: bold;
+}
+.favourite-list {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    gap:30px;
+    padding-left:0px;
+}
+.fav-thing {
+    height: 300px;
+    
+    
+}

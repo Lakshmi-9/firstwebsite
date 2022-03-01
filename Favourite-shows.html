@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile page|Favourite movies</title>
+    <Link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="banner-section">
+        <img class="banner-image" src="https://wallpaperaccess.com/full/364222.jpg">
+    </div>
+    <div class="profile-section">
+        <div class="profile-photo-section">
+           <img class="profile-image" src="data:image/png;base64,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">
+        </div>
+        <div class="profile-name-section">
+            <h2>Lakshmi Bezawada</h2>
+            <h4>founder of Gola Fashion</h4>
+        </div>
+    </div>
+    <div class="menu-bar-section">
+        <ul class="menu-section">
+            <li>About</li>
+            <li>Groups</li>
+            <li>Blog</li>
+            <li>Messages</li>
+            <li>Notifications</li>
+            <li>Friends</li>
+            <li>Photos</li>
+            <li>Settings</li>
+        </ul>
+    </div>
+    <div class="middle-section">
+        <div class="tab-section">
+            <ol class="tab-links-section">
+                <li>
+                    <a href="index.html">Personal</a>
+                </li>
+                <li>
+                    <a href="Favourite-movies.html">Favourite Movies</a>
+                </li>
+                <li>
+                    <a href="Favourite-books.html">Favourite Books</a>
+                </li>
+                <li class="selected">
+                    <a href="#">Favourite TV Shows</a>
+                </li>
+
+            </ol>
+        </div>
+        <div class="data-section">
+            <h2>Favourite TV Shows:</h2>
+            <ul class="favourite-list">
+                <li class="favourite-list-item">
+                  <img
+                    class="fav-thing"
+                    src="https://nettv4u.com/imagine/12-09-2019/super-singer-7.jpg">
+                  <p><strong>Super Singer7</strong></p>
+                </li>
+                <li class="favourite-list-item">
+                    
+                  <img
+                    class="fav-thing"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBFPuLyqWPi4MOWh4Ak5ZedM7JxFjD30_GKw&usqp=CAU"
+                  />
+                  <p><strong>Super Queen</strong></p>
+                </li>
+                <li class="favourite-list-item">
+                    <img class="fav-thing" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG1mpBog33HGRJQOumDhNxoZybQvDkbbcy9Q&usqp=CAU">
+                    <p><strong>Sa Ri Ga Ma Pa</strong></p>
+                </li>
+                
+              </ul>
+            
+        </div>
+    </div>
+
+</body>
+</html>
