@@ -37,6 +37,16 @@ body {
 .menu-section li {
     font-weight: bold;
 }
+.menu-bar-section a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+.menu-section li.selected  a {
+     color: #e63946;
+     border-bottom: 1px solid #e63946;
+         
+}
 .middle-section {
     display:flex;
 }
